@@ -31,10 +31,10 @@
 
 
 #import <UIKit/UIKit.h>
-
+#import "FLAnimatedImageView+WebCache.h"
 @interface SDCollectionViewCell : UICollectionViewCell
 
-@property (weak, nonatomic) UIImageView *imageView;
+@property (weak, nonatomic) FLAnimatedImageView *imageView;
 @property (copy, nonatomic) NSString *title;
 
 @property (nonatomic, strong) UIColor *titleLabelTextColor;
